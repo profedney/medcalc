@@ -1,0 +1,30 @@
+img, embed, object, video{
+    max-width: 100%;
+}
+
+nav a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+body{
+    background-color: rgb(116, 116, 116);
+    
+        margin: auto;
+        width: 50%;
+        border: 3px solid #131313;
+        padding: 10px;
+}
+
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width:800px) {
+    body{
+        background-color: lightblue;
+    }
+    
+}
